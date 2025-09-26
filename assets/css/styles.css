@@ -10,7 +10,43 @@ section {
   background-color: hsl(0, 0%, 100%);
   color: hsl(240, 100%, 5%);
   padding: 20px;
+box-shadow: 8px 8px 0px 0px hsl(0, 0%, 0%);
+border-color: black;
+border-style: solid;
+border-width: 2px;
   border-radius: 10px;
-  max-width: 600px;
+  max-width: 450px;
+  width: 450px;
+  height: 585px;
   margin: 20px auto;
+}
+    
+.Illustration {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.figtree-heading {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Learning {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-weight: bold;
+  float: left;
+  font-size: 15px;
+  padding: 10px;
+  margin: auto;
+  width: 80px;
+  border-radius: 5px;
+  height: 10px;
+  margin-bottom: 15px;
+  color: hsl(240, 100%, 5%);
+  background-color: hsl(47, 88%, 63%);
 }
