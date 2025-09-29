@@ -10,7 +10,95 @@ section {
   background-color: hsl(0, 0%, 100%);
   color: hsl(240, 100%, 5%);
   padding: 20px;
-  border-radius: 10px;
-  max-width: 600px;
+  box-shadow: 8px 8px 0px 0px hsl(0, 0%, 0%);
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  max-width: 450px;
+  width: 420px;
+  height: 575px;
   margin: 20px auto;
 }
+    
+.Illustration {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  height: 245px;
+  width: 410px;
+  align-items: center;
+}
+
+.figtree-heading {
+  font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.Learning {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-weight: 800;
+  float: left;
+  font-size: 22px;
+  padding: 10px;
+  margin: auto;
+  width: 70px;
+  border-radius: 5px;
+  height: 10px;
+  margin-bottom: 15px;
+  color: hsl(240, 100%, 5%);
+  background-color: hsl(47, 88%, 63%);
+}
+
+h2 {
+  font-size: 28px;
+  margin: 0 0 15px 0;
+  &:hover {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+  }
+}   
+
+p {
+  font-size: 15px;
+  color: hsl(240, 100%, 5%);
+}   
+
+.Author {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}   
+
+.Avatar {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 15px;
+}   
+
+
+#published {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(240, 100%, 5%);
+  margin: 0 0 15px 0;
+}
+
+#description {
+  font-size: 19px;
+  color: hsl(0, 0%, 42%);
+  margin: 0 0 15px 0;
+}
+
+#author {
+  font-size: 18px;
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  margin: 0;
+}
+
