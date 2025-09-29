@@ -10,14 +10,14 @@ section {
   background-color: hsl(0, 0%, 100%);
   color: hsl(240, 100%, 5%);
   padding: 20px;
-box-shadow: 8px 8px 0px 0px hsl(0, 0%, 0%);
-border-color: black;
-border-style: solid;
-border-width: 2px;
-  border-radius: 10px;
+  box-shadow: 8px 8px 0px 0px hsl(0, 0%, 0%);
+  border-color: black;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
   max-width: 450px;
-  width: 450px;
-  height: 585px;
+  width: 420px;
+  height: 575px;
   margin: 20px auto;
 }
     
@@ -41,12 +41,12 @@ border-width: 2px;
  display: flex;
  align-items: center;
  justify-content: center;
- font-weight: bold;
+ font-weight: 800;
   float: left;
-  font-size: 15px;
+  font-size: 22px;
   padding: 10px;
   margin: auto;
-  width: 80px;
+  width: 70px;
   border-radius: 5px;
   height: 10px;
   margin-bottom: 15px;
@@ -77,16 +77,24 @@ p {
   margin-right: 15px;
 }   
 
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}   
 
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}   
+#published {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(240, 100%, 5%);
+  margin: 0 0 15px 0;
+}
 
-.attribution a:hover {
-  color: hsl(228, 45%, 64%);
-  text-decoration: underline;
-}   
+#description {
+  font-size: 19px;
+  color: hsl(0, 0%, 42%);
+  margin: 0 0 15px 0;
+}
+
+#author {
+  font-size: 18px;
+  font-weight: 800;
+  color: hsl(240, 100%, 5%);
+  margin: 0;
+}
+
